@@ -1,0 +1,25 @@
+.footerDown {
+  border: 2px solid gray;
+  width: 100%;
+  background-image: linear-gradient(#ffffff, #ffffff, #d9d9d9, #c0c0c0);
+}
+.footer {
+  background-color: rgb(58, 83, 136);
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.footerDown button {
+  width: 5rem;
+  font-size: 11px;
+  padding: 0;
+}
+.about,
+.Training,
+.Resources,
+.Global-Reach,
+.share {
+  border-top: 1px solid white;
+}

@@ -1,0 +1,73 @@
+.header {
+  background-image: linear-gradient(
+    #ffffff,
+    #ffffff,
+    #f2f2f2,
+    #ececec,
+    #d9d9d9,
+    #c0c0c0,
+    #c0c0c0
+  );
+  position: relative;
+  height: 140px;
+  top: 40%;
+  border: 5px linear-gradient(#ffffff, #ffffff, #f2f2f2, #ececec, #c0c0c0);
+  /* position:fixed; */
+}
+.menuBarIcon:hover > ol li {
+  display: block;
+}
+.menudropdown1 {
+  position: absolute;
+  bottom: 0;
+
+  padding-right: 2%;
+  padding-left: 2%;
+  width: 100%;
+}
+.mt-overflow-auto {
+  overflow: auto;
+}
+.menudropdown1 ul li {
+  color: white;
+  float: left;
+  border-top: 2px solid rgb(68, 67, 67);
+  width: 14.27%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  list-style: none;
+  font-size: 16px;
+  text-align: center;
+  background-color: #216ead;
+}
+.menudropdown1 ul {
+  padding: 0px;
+}
+.menudropdown1 ul li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 10px solid white;
+  position: absolute;
+  bottom: -10px;
+  left: 280px;
+}
+.menudropdown2 {
+  position: absolute;
+  right: 0;
+  display: flex;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+@media (min-width: 979px) {
+  .menuBar {
+    display: none;
+  }
+}
