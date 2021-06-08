@@ -27,7 +27,7 @@ const Footer = () =>{
                 <a style={{color:"white"}} href="ab">Awards Recognition</a>
             </div>
             <div className="Resources">
-                <h5>Resources</h5>
+                <h5>Resources</h5> 
                 <a style={{color:"white"}} href="ab">Vision & Mission</a><br/>
                 <a style={{color:"white"}} href="ab">Thought Leadership</a><br/>
                 <a style={{color:"white"}} href="ab">Events</a><br/>
